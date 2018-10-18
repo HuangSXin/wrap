@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a,i {
+    text-decoration: none;
+    outline: none;
+    font-style: normal;
+}
+.el-form-item__content {
+    margin-left: 0!important;
+}
+.el-checkbox__inner {
+    width: 14px!important;
+    height: 14px!important;
+    background-color: #ff9245!important;
+    border-color: #ff9245!important;
+}
+/*注册成功的滑动样式*/
+.el-step__title.is-process {
+    color: rgba(0, 0, 0, 0.45) !important;
+}
+.el-step__head.is-finish{
+    color: #2FA666!important;
+    border-color: #2FA666!important;
+}
+.el-step__icon-inner {
+    color: rgba(0, 0, 0, 0.45);
+}
+.el-step__title.is-finish {
+    /*填写账号信息的样式*/
+    color: #2FA666!important;
+}
+
